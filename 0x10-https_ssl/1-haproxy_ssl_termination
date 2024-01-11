@@ -41,9 +41,9 @@ frontend dahmiedebby-frontend
         default_backend dahmiedebby-backend
 
 frontend dahmiedebby-frontend-https
-        bind *:443 ssl crt /etc/haproxy/certs/dahmiedebbby.tech.pem
+        bind *:443 ssl crt /etc/haproxy/certs/www.dahmiedebbby.tech.pem
         http-request set-header X-Forwarded-Proto https
-        default_backebd dahmiedebby-backend
+        default_backend dahmiedebby-backend
 
 backend dahmiedebby-backend
         balance roundrobin
