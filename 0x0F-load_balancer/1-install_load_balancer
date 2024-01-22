@@ -40,8 +40,8 @@ frontend dahmiedebby-frontend
 
 backend dahmiedebby-backend
     balance roundrobin
-    server 425174-web-01 100.26.167.147:80 check
-    server 425174-web-02 54.90.45.16:80 check
+    server 425174-web-01 34.201.174.132:80 check
+    server 425174-web-02 52.91.149.152:80 check
 "
 
 # shellcheck disable=SC2154
